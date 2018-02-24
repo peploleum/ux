@@ -1,0 +1,5 @@
+.sidebarContainer {
+  width: 200px;
+  border: 1px solid green;
+  display: flex;
+}

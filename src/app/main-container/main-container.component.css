@@ -1,0 +1,9 @@
+.mainLayout {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainView {
+  flex-grow: 1;
+  border: 1px solid red;
+}
