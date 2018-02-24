@@ -1,3 +1,6 @@
-<p>
-  sidebar works!
-</p>
+<div class="sidebarContainer">
+  <div class="sidebarItem" *ngFor="let item of sidebar">
+    <span class="sidebarIcon" [ngClass]="item.icon"></span>
+    <span class="sidebarText"> {{item.name}}</span>
+  </div>
+</div>
