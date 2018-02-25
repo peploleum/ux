@@ -6,8 +6,7 @@
 
 .sidebarContainer {
   /*margin: 2px;*/
-  border-left: 1px solid #85888e;
-  border-right: 1px solid #85888e;
+  border-right: 1px solid rgba(133, 136, 142, 0.28);
   width: 220px;
   display: flex;
   flex-direction: column;
@@ -28,7 +27,8 @@
 
 .sidebarItem:hover {
   border-left: 3px solid #00aeff;
-  background-color: rgba(34, 40, 53, 0.3);
+  /*background-color: rgba(34, 40, 53, 0.3);*/
+  background-color: rgba(80, 98, 114, 0.3);
 }
 
 .sidebarItem:hover > .sidebarText {

@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: row;
   background-color: #0e141f;
-  border-bottom: 1px solid #85888e;
-  border-top: 1px solid #85888e;
+  border-bottom: 1px solid rgba(133, 136, 142, 0.28);
+  border-top: 1px solid rgba(133, 136, 142, 0.28);
 }
 
 .navbarItem {
@@ -19,7 +19,7 @@
 .navbarItem:hover {
   border-bottom: 3px solid #00aeff;
   cursor: pointer;
-  background-color: rgba(34, 40, 53, 0.3);
+  background-color: rgba(80, 98, 114, 0.3);
 }
 
 .navbarItem:hover > .rightSide .navbarText {
