@@ -5,7 +5,6 @@
   flex-direction: row;
 }
 
-
 .mainView {
   flex-grow: 1;
   display: flex;
@@ -13,7 +12,10 @@
 }
 
 .mainContainer {
-  background-color: #0a1a3b;
+  /*background-color: #0a1a3b;*/
+  background-color: #00aeff;
   flex-grow: 1;
+  min-height: 500px;
   height: 100%;
+  display: flex;
 }

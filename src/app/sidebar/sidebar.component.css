@@ -1,9 +1,3 @@
-/*:host {*/
-  /*height: 100%;*/
-  /*display: flex;*/
-
-/*}*/
-
 .sidebarContainer {
   /*margin: 2px;*/
   border-right: 1px solid rgba(133, 136, 142, 0.28);
@@ -21,8 +15,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*border: 1px solid gray;*/
   border-left: 3px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .sidebarItem:hover {

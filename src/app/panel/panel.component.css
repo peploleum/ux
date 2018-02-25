@@ -1,0 +1,49 @@
+:host {
+  display: flex;
+  flex-grow: 1;
+  margin: 2px;
+  min-width: 100px;
+  background-color: #0e141f;
+  border: 1px solid rgba(133, 136, 142, 0.28);
+  flex-direction: column;
+}
+
+.header {
+  height: 20px;
+  background-color: #0a1a3b;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 2px 5px 5px 2px;
+}
+
+.headerIcon {
+  padding: 0px 5px 0px 5px;
+  color: #00aeff;
+}
+
+.headerTitle {
+  flex-grow: 1;
+}
+
+.headerControls {
+  color: #85888e;
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+}
+
+.headerControl {
+  padding: 0px 5px 0px 5px;
+  transition: all 0.3s ease;
+}
+
+.headerControl:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: azure;
+}

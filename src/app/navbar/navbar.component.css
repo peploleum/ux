@@ -13,6 +13,7 @@
   border-bottom: 3px solid transparent;
   align-items: center;
   justify-content: space-between;
+  transition: all 0.2s ease;
 
 }
 
