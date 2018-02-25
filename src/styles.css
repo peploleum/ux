@@ -1,9 +1,14 @@
 body {
   height: 100%;
   width: 100%;
-  display: flex;
+  /*display: flex;*/
   margin: 0px;
+  /*overflow: hidden;*/
 }
 html{
   height: 100%;
+  display: flex;
+}
+input, select {
+  outline: none;
 }

@@ -5,12 +5,15 @@
   flex-direction: row;
 }
 
-.mainLayout {
-  display: flex;
-  flex-direction: row;
-}
 
 .mainView {
   flex-grow: 1;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer {
+  background-color: #0a1a3b;
+  flex-grow: 1;
+  height: 100%;
 }
