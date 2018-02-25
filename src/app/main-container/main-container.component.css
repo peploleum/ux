@@ -13,9 +13,23 @@
 
 .mainContainer {
   /*background-color: #0a1a3b;*/
-  background-color: #00aeff;
+  background-color: #0e141f;
   flex-grow: 1;
   min-height: 500px;
   height: 100%;
   display: flex;
+}
+
+.sideColumn {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.mainColumn {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }

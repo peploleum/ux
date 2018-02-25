@@ -1,4 +1,11 @@
 <div class="sidebarContainer">
+  <div class="brand">
+    <span class="brandText">AWESOME UI</span>
+  </div>
+  <div class="search">
+    <span class="searchIcon fa fa-search"></span>
+    <span class="searchContent"><input class="searchInput"/></span>
+  </div>
   <div class="sidebarItem" *ngFor="let item of sidebar">
     <span class="sidebarIcon" [ngClass]="item.icon"></span>
     <span class="sidebarText"> {{item.name}}</span>

@@ -1,7 +1,7 @@
-<div class="navbarItem" *ngFor="let item of navbar">
+<div class="navbarItem" [class.active]="item.active" *ngFor="let item of navbar">
   <span class="navbarIcon" [ngClass]="item.icon"></span>
   <div class="rightSide">
-    <span class="navbarText">{{item.text}}</span>
+    <span class="navbarText" [class.textActive]="item.active">{{item.text}}</span>
     <!--<span class="navbarButton fa fa-close"></span>-->
   </div>
 </div>

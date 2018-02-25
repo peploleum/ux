@@ -5,20 +5,22 @@
   margin: 2px 2px 2px 2px;
   border: 1px solid rgba(133, 136, 142, 0.28);
   justify-items: flex-start;
+  background-color: #0e141f;
   /*justify-content: space-between;*/
 }
 
 .toolbarItem {
-  flex-grow: 1;
-  min-width: 10px;
-  font-size: 20px;
+  /*flex-grow: 1;*/
+  min-width: 30px;
+  font-size: 15px;
   padding: 3px 3px 3px 3px;
   transition: all 0.1s ease;
-  color: #fff;
+  color: #85888e;
   text-align: center;
 }
 
 .toolbarItem:hover {
-  background-color: #0e141f;
+  background-color: rgba(80, 98, 114, 0.3);
   cursor: pointer;
+  color: #fff;
 }

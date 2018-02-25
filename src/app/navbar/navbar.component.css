@@ -9,7 +9,7 @@
 
 .navbarItem {
   display: flex;
-  width: 200px;
+  width: 220px;
   border-bottom: 3px solid transparent;
   align-items: center;
   justify-content: space-between;
@@ -18,6 +18,12 @@
 }
 
 .navbarItem:hover {
+  border-bottom: 3px solid #00aeff;
+  cursor: pointer;
+  background-color: rgba(80, 98, 114, 0.3);
+}
+
+.active {
   border-bottom: 3px solid #00aeff;
   cursor: pointer;
   background-color: rgba(80, 98, 114, 0.3);
@@ -43,6 +49,12 @@
   padding: 0px 20px 0px 20px;
   flex-grow: 1;
   color: #85888e;
+  text-transform: uppercase;
+
+}
+
+.textActive {
+  color: #fff;
 }
 
 .navbarButton {

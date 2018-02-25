@@ -10,7 +10,8 @@
 
 .header {
   height: 20px;
-  background-color: #0a1a3b;
+  /*background-color: #0a1a3b;*/
+  background-color: #0e141f;
   display: flex;
   align-items: center;
   color: #fff;
@@ -45,5 +46,5 @@
 
 .content {
   flex-grow: 1;
-  background-color: azure;
+  background-color: rgba(124, 124, 124, 0.65);
 }
